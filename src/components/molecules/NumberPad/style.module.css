@@ -1,0 +1,44 @@
+.number_pad ins {
+    display: block;
+    height: 20px;
+    padding: 20px 0 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.number_pad kbd {
+    zoom: 1;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.number_pad kbd span {
+    display: inline-block;
+    overflow: hidden;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #1A1B1E;
+    background-color: transparent;
+    text-indent: -9999px;
+}
+.number_pad kbd span.fill {
+    background-color: #1A1B1E;
+    text-indent: 0;
+}
+.numbers {
+    position: relative;
+    background-color: #1A1B1E;
+    font-size: 0;
+    text-align: center;
+}
+.numbers button {
+    width: 33.33%;
+    height: 90px;
+    border: 1px solid #313236;
+    background-color: #1A1B1E;
+    box-sizing: border-box;
+    outline: none;
+    color: #FBFCFF;
+    font-size: 24px;
+    cursor: pointer;
+}
