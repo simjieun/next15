@@ -1,11 +1,11 @@
-import styles from "./page.module.css";
-import NumberPad from "@/components/molecules/NumberPad";
+import * as styles from "./page.css";
+// import NumberPad from "@/components/molecules/NumberPad";
 
 function Home() {
   return (
       <div className={styles.page}>
           홈 영역
-          <NumberPad />
+          {/*<NumberPad />*/}
       </div>
   );
 }

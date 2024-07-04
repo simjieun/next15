@@ -5,7 +5,7 @@ import styles from './style.module.css';
 const NumberPad = () => {
     const [inputValue, setInputValue] = useState('');
 
-    const handleButtonClick = (number) => {
+    const handleButtonClick = (number:string) => {
         if(inputValue.length > 5) return;
 
         setInputValue(prev => prev + number);
